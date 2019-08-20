@@ -6,5 +6,10 @@ pipeline {
         echo 'Compiled'
       }
     }
+    stage('') {
+      steps {
+        bat 'mvn compile'
+      }
+    }
   }
 }
