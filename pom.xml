@@ -18,5 +18,16 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>SRAVANVANGA3691-releases</name>
+        <url>http://localhost:8081/artifactory/Artifact</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>SRAVANVANGA3691-snapshots</name>
+        <url>http://localhost:8081/artifactory/Artifact</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
